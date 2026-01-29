@@ -45,6 +45,7 @@ const skinDisplay = {
   allskin: "جميع أنواع البشرة",
   facebody:"للبشره والوجه",
   eye:"للعين",
+  cica:"بشره متضرره",
 };
 
 const labelClass = {
@@ -55,7 +56,8 @@ const labelClass = {
   dry: "label-dry",
   allskin: "label-allskin",
   facebody:"label-facebody",
-  eye:"label-eye"
+  eye:"label-eye",
+  cica:"label-cica"
 };
 
 const brandDisplay = {
@@ -293,3 +295,4 @@ loadExcel().catch(err => {
   console.error(err);
   showEmpty(err.message);
 });
+
