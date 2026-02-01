@@ -56,6 +56,9 @@ const categoryDisplay = {
   "volume hair": "كثافة الشعر",
   "hair loss": "تساقط الشعر",
   "exfoliating":"غسول مقشر",
+  "viltigo":"بهاق",
+   "dandruf":"للقشره",
+    "nails":"للأظافر"
 };
 
 
@@ -129,6 +132,7 @@ const skinDisplay = {
   facebody:"للبشره والوجه",
   eye:"للعين",
   cica:"بشره متضرره",
+  body:"للجسم",
 };
 
 const labelClass = {
@@ -140,7 +144,8 @@ const labelClass = {
   allskin: "label-allskin",
   facebody:"label-facebody",
   eye:"label-eye",
-  cica:"label-cica"
+  cica:"label-cica",
+  body:"label-body",
 };
 
 const brandDisplay = {
@@ -150,6 +155,7 @@ const brandDisplay = {
   isispharma: "IsisPharma",
   bioderma: "Bioderma",
   eucerin: "Eucerin",
+  acm:"Acm"
 };
 
 const PLACEHOLDER =
@@ -579,4 +585,5 @@ loadExcel().catch(err => {
   resize();
   requestAnimationFrame(step);
 })();
+
 
