@@ -58,7 +58,7 @@ const categoryDisplay = {
   "exfoliating":"غسول مقشر",
   "viltigo":"بهاق",
    "dandruf":"للقشره",
-    "nails":"للأظافر"
+   
 };
 
 
@@ -133,6 +133,7 @@ const skinDisplay = {
   eye:"للعين",
   cica:"بشره متضرره",
   body:"للجسم",
+  nails:"للأظافر"
 };
 
 const labelClass = {
@@ -146,6 +147,7 @@ const labelClass = {
   eye:"label-eye",
   cica:"label-cica",
   body:"label-body",
+  nails:"label-nails"
 };
 
 const brandDisplay = {
@@ -585,5 +587,6 @@ loadExcel().catch(err => {
   resize();
   requestAnimationFrame(step);
 })();
+
 
 
