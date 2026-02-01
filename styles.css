@@ -348,6 +348,7 @@ select{
 .label-eye{background: rgba(226, 143, 17, 0.685); color:#ffffff;}
 .label-cica{background: rgba(226, 143, 17, 0.685); color:#ffffff;}
 .label-body{background: rgba(226, 143, 17, 0.685); color:#ffffff;}
+.label-nails{background: rgba(226, 143, 17, 0.685); color:#ffffff;}
 
 /* ===== Magnifier Preview جنب البانل ===== */
 .hover-preview{
@@ -437,6 +438,7 @@ select{
   }
 /* IMPORTANT: خلي hidden آخر حاجة */
 .hidden{display:none !important}
+
 
 
 
